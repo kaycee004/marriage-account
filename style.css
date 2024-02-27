@@ -16,6 +16,14 @@ h2{
     color: white;
 }
 
+p{
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
+}
+
 hr{
     width: 75vw;
 }
