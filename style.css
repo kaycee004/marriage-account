@@ -1,7 +1,7 @@
 body{
     background-color: goldenrod;
-    background-image: url(./assets/oad\ \(1\).jpg);
-    background-clip: border-box;
+    background-image: url(./assets/IMG_1170.jpg);
+   background-size: 105vw 100vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     color: black;
@@ -12,16 +12,22 @@ body{
     align-items: center;
     text-align: center;
 }
+
+i{
+    color: white;
+}
 h2{
     color: white;
 }
 
 p{
-    font-weight: bold;
+    font-weight: bolder;
+    color: greenyellow;
 }
 
 label{
     font-weight: bold;
+    color: yellow;
 }
 
 hr{
