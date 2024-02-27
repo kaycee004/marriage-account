@@ -2,11 +2,58 @@ body{
     background-color: goldenrod;
     background-image: url(./assets/oad\ \(1\).jpg);
     background-clip: border-box;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 16px;
 }
 
 .general_container{
+    align-items: center;
+    text-align: center;
+}
+h2{
+    color: white;
+}
+.first-account{
+   
+}
+.details1{
+    
 }
 h1{
     color: white;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border: transparent;
+    border-bottom: 0.5px solid brown;
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+}
+
+button{
+    cursor: pointer;
+    background-color: goldenrod;
+    border-radius: 5px;
+    border-color: transparent;
+    color: whitesmoke;
+}
+
+.input3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img{
+    width: 20px;
+    
 }

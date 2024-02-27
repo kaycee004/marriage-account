@@ -7,11 +7,82 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="general_container">
-      <h1>
-        Account Details
-        
-      </h1>
+    <div id="general_container">
+      <h1>Gift Registry</h1>
+      <i
+        >We appreciate your kind gesture celebrating with us on this special
+        day. Below are list of accounts you can send funds to at your
+        convenience. Your support is highly appreciated. Thank you with Love!
+      </i>
+      <hr />
+      <h2>BANK ACCOUNT</h2>
+      <div id="first-account">
+        <p>MECOYO GRINS CONCEPT (GTBank)</p>
+
+        <div id="input3">
+          <label for="">Account Number (&#8358;):</label>
+          <div>
+            <input type="text" value="0449035189" id="numb1" />
+            <img
+              onclick="myTextOne()"
+              src="/assets/clipboard.png"
+              alt="clipboard"
+            />
+          </div>
+          <br>
+        </div>
+        <div id="input3">
+          <label for="">Account Number (&dollar;):</label>
+          <div>
+            <input type="text" value="0653907977" id="numb2" />
+            <img
+              onclick="myTextTwo()"
+              src="/assets/clipboard.png"
+              alt="clipboard"
+            />
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <h2>CRYPTO CURRENCY</h2>
+
+      <div>
+        <div id="input3">
+          <label for="">Bitcoin (&#8383;):</label>
+          <div>
+            <input
+              type="text"
+              value="bc1qy8zgjtten0m68he3v488znu3yzsvlg7slsvv9j"
+              id="numb3"
+            />
+            <img
+              onclick="myTextThree()"
+              src="/assets/clipboard.png"
+              alt="clipboard"
+            />
+          </div>
+        </div>
+<br>
+        <div id="input3">
+          <label for="">Ethereum:</label>
+          <div>
+            <input
+              type="text"
+              value="0x575f203256a585956e5696c6d42137d58174a6f6"
+              id="numb4"
+            />
+            <img
+              onclick="myTextFour()"
+              src="/assets/clipboard.png"
+              alt="clipboard"
+            />
+          </div>
+        </div>
+      </div>
     </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>
